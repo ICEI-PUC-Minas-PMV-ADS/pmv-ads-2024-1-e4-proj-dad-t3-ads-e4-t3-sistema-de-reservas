@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# SPACE-SHARE Sistema de gerenciamento de reservas
 
-`CURSO`
+`CURSO: Análise e Densenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma aplicação distribuida`
 
-`SEMESTRE`
+`Eixo 4 - Turma 3`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste no desenvolvimento de uma plataforma digital para facilitar a reserva de espaços comunitários em condomínios residenciais. Através de uma aplicação web e móvel, os moradores poderão visualizar a disponibilidade dos espaços, fazer reservas de forma rápida e eficiente, e facilitar a comunicação com a administração do condomínio. Essa solução busca modernizar e otimizar o processo de gestão de espaços compartilhados, visando proporcionar uma melhor experiência para todos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
+* Jefferson Rodrigues Lacerda
+* Rafael Dias Rúbio
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
