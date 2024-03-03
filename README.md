@@ -10,10 +10,10 @@ O projeto consiste no desenvolvimento de uma plataforma digital para facilitar a
 
 ## Integrantes
 
-* Jefferson Rodrigues Lacerda
-* Rafael Dias Rúbio
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+<ol>
+<li><a href="https://github.com/rafaeldrubio"> Rafael Dias Rubio</a></li>
+<li><a href="https://github.com/JeffJeff25"> Jefferson Lacerda</a></li>
+</ol>
 
 ## Orientador
 
