@@ -20,40 +20,40 @@ Restrições do Projeto: Limitações e condições que influenciam o desenvolvi
 
 ## Personas
 
-`Carla Dias`
-Moradora
-Idade: 35 anos
-Profissão: Advogada
-Situação: Mãe de dois filhos pequenos
-Necessidades: Procura agendar festas de aniversário e eventos familiares nos espaços comuns do condomínio de forma rápida e eficiente. Valoriza a segurança e a comodidade para seus filhos.
+> - `Carla Dias`
+ - Moradora
+ - Idade: 35 anos
+ - Profissão: Advogada
+ - Situação: Mãe de dois filhos pequenos
+ - Necessidades: Procura agendar festas de aniversário e eventos familiares nos espaços comuns do condomínio de forma rápida e eficiente. Valoriza a segurança e a comodidade para seus filhos.
 
-`João Neves`
-Síndico
-Idade: 50 anos
-Profissão: Empresário
-Situação: Síndico do condomínio há 5 anos
-Necessidades: Precisa de uma ferramenta que simplifique o processo de gerenciamento de reservas e garanta a organização dos espaços comuns. Valoriza a facilidade de uso e a redução de conflitos entre os moradores.
+> - `João Neves`
+ - Síndico
+ - Idade: 50 anos
+ - Profissão: Empresário
+ - Situação: Síndico do condomínio há 5 anos
+ - Necessidades: Precisa de uma ferramenta que simplifique o processo de gerenciamento de reservas e garanta a organização dos espaços comuns. Valoriza a facilidade de uso e a redução de conflitos entre os moradores.
 
 `Maria Santos`
-Idosa
-Idade: 70 anos
-Profissão: Aposentada
-Situação: Vive sozinha no condomínio
-Necessidades: Deseja reservar os espaços comuns para atividades recreativas e encontros sociais com outros moradores. Valoriza uma interface intuitiva e suporte acessível para tirar dúvidas durante o processo de reserva.
+ - Idosa
+ - Idade: 70 anos
+ - Profissão: Aposentada
+ - Situação: Vive sozinha no condomínio
+ - Necessidades: Deseja reservar os espaços comuns para atividades recreativas e encontros sociais com outros moradores. Valoriza uma interface intuitiva e suporte acessível para tirar dúvidas durante o processo de reserva.
 
-`Lucas Torres`
-Estudante
-Idade: 22 anos
-Profissão: Estudante universitário
-Situação: Morador temporário durante o período letivo
-Necessidades: Busca espaços tranquilos para estudar e realizar reuniões de grupo. Valoriza a flexibilidade de horários e a facilidade de acesso às informações sobre disponibilidade dos espaços.
+> - `Lucas Torres`
+ - Estudante
+ - Idade: 22 anos
+ - Profissão: Estudante universitário
+ - Situação: Morador temporário durante o período letivo
+ - Necessidades: Busca espaços tranquilos para estudar e realizar reuniões de grupo. Valoriza a flexibilidade de horários e a facilidade de acesso às informações sobre disponibilidade dos espaços.
 
-`Fernanda Silva`
-Profissional
-Idade: 40 anos
-Profissão: Executiva
-Situação: Viaja com frequência a trabalho
-Necessidades: Precisa reservar espaços para reuniões corporativas e eventos de networking quando está em casa. Valoriza a praticidade de agendamento e a integração com seu calendário profissional.
+> - `Fernanda Silva`
+- Profissional
+- Idade: 40 anos
+- Profissão: Executiva
+- Situação: Viaja com frequência a trabalho
+- Necessidades: Precisa reservar espaços para reuniões corporativas e eventos de networking quando está em casa. Valoriza a praticidade de agendamento e a integração com seu calendário profissional.
 
 ## Histórias de Usuários
 
