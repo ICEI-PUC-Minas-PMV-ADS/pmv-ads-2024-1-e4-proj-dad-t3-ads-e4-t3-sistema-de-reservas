@@ -2,43 +2,84 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Nesta seção, serão abordadas as especificações detalhadas do projeto de desenvolvimento do sistema de Gerenciamento de Reservas de espaços de condomínio. A definição do problema e a ideia de solução serão exploradas a partir da perspectiva do usuário, incluindo o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Definição do Problema:
+Identificação das lacunas no gerenciamento de reservas de espaços comuns em condomínios residenciais.
+Necessidade de uma solução moderna e concisa para facilitar o agendamento e utilização dessas instalações coletivas.
+
+Ideia de Solução:
+Desenvolvimento de uma aplicação web e um aplicativo móvel para oferecer aos moradores uma plataforma intuitiva para o agendamento de eventos e uso dos espaços comuns.
+Foco na simplicidade e praticidade, garantindo uma experiência amigável para todos os usuários.
+
+Técnicas e Ferramentas Utilizadas:
+Diagrama de Personas: Descrição detalhada dos diferentes tipos de usuários do sistema.
+Histórias de Usuários: Narrativas que descrevem as interações dos usuários com o sistema.
+Requisitos Funcionais e Não Funcionais: Lista de funcionalidades e características do sistema.
+Restrições do Projeto: Limitações e condições que influenciam o desenvolvimento do projeto.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+`Carla Dias`
+Moradora
+Idade: 35 anos
+Profissão: Advogada
+Situação: Mãe de dois filhos pequenos
+Necessidades: Procura agendar festas de aniversário e eventos familiares nos espaços comuns do condomínio de forma rápida e eficiente. Valoriza a segurança e a comodidade para seus filhos.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+`João Neves`
+Síndico
+Idade: 50 anos
+Profissão: Empresário
+Situação: Síndico do condomínio há 5 anos
+Necessidades: Precisa de uma ferramenta que simplifique o processo de gerenciamento de reservas e garanta a organização dos espaços comuns. Valoriza a facilidade de uso e a redução de conflitos entre os moradores.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+`Maria Santos`
+Idosa
+Idade: 70 anos
+Profissão: Aposentada
+Situação: Vive sozinha no condomínio
+Necessidades: Deseja reservar os espaços comuns para atividades recreativas e encontros sociais com outros moradores. Valoriza uma interface intuitiva e suporte acessível para tirar dúvidas durante o processo de reserva.
+
+`Lucas Torres`
+Estudante
+Idade: 22 anos
+Profissão: Estudante universitário
+Situação: Morador temporário durante o período letivo
+Necessidades: Busca espaços tranquilos para estudar e realizar reuniões de grupo. Valoriza a flexibilidade de horários e a facilidade de acesso às informações sobre disponibilidade dos espaços.
+
+`Fernanda Silva`
+Profissional
+Idade: 40 anos
+Profissão: Executiva
+Situação: Viaja com frequência a trabalho
+Necessidades: Precisa reservar espaços para reuniões corporativas e eventos de networking quando está em casa. Valoriza a praticidade de agendamento e a integração com seu calendário profissional.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO...               | QUERO/PRECISO ...                                      |PARA ...                                           |
+|-------------------------|--------------------------------------------------------|---------------------------------------------------|
+|Carla Dias              | Visualizar a disponibilidade dos espaços comuns do condomínio | Poder agendar eventos e atividades de acordo com a minha conveniência |
+|Carla Dias              | Reservar um espaço comum para um evento específico   | Garantir que o espaço esteja disponível para mim na data desejada |
+|Carla Dias              | Receber notificações sobre a confirmação da minha reserva | Ter certeza de que minha reserva foi registrada com sucesso |
+|João Neves              | Aprovar ou rejeitar reservas feitas pelos moradores | Garantir que as reservas estejam de acordo com as políticas do condomínio |
+|João Neves              | Adicionar novos moradores ao sistema               | Garantir que todos os residentes tenham acesso à plataforma de reserva |
+|João Neves              | Remover moradores do sistema                        | Manter a lista de usuários atualizada e segura |
+|João Neves              | Modificar as permissões de acesso dos moradores     | Controlar quem pode fazer reservas e quem pode apenas visualizar a disponibilidade dos espaços |
+|Maria Santos            | Visualizar a disponibilidade dos espaços comuns do condomínio | Poder agendar eventos e atividades de acordo com a minha conveniência |
+|Maria Santos            | Reservar um espaço comum para um evento específico   | Garantir que o espaço esteja disponível para mim na data desejada |
+|Maria Santos            | Receber notificações sobre a confirmação da minha reserva | Ter certeza de que minha reserva foi registrada com sucesso |
+|Lucas Torres            | Visualizar a disponibilidade dos espaços comuns do condomínio | Poder agendar eventos e atividades de acordo com a minha conveniência |
+|Lucas Torres            | Reservar um espaço comum para um evento específico   | Garantir que o espaço esteja disponível para mim na data desejada |
+|Lucas Torres            | Receber notificações sobre a confirmação da minha reserva | Ter certeza de que minha reserva foi registrada com sucesso |
+|Fernanda Silva          | Visualizar a disponibilidade dos espaços comuns do condomínio | Poder agendar eventos e atividades de acordo com a minha conveniência |
+|Fernanda Silva          | Reservar um espaço comum para um evento específico   | Garantir que o espaço esteja disponível para mim na data desejada |
+|Fernanda Silva          | Receber notificações sobre a confirmação da minha reserva | Ter certeza de que minha reserva foi registrada com sucesso |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Essas histórias de usuários serão fundamentais para orientar o desenvolvimento do sistema, garantindo que as necessidades e expectativas dos diferentes tipos de usuários sejam atendidas de maneira eficaz.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
@@ -77,47 +118,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                  | Prioridade |
+|------|--------------------------------------------------------------------------|------------|
+|RF-001| Permitir que o morador visualize a disponibilidade dos espaços comuns do condomínio | ALTA       |
+|RF-002| Permitir que o morador reserve um espaço comum para um evento específico | ALTA       |
+|RF-003| Enviar notificações para o morador sobre a confirmação da sua reserva    | MÉDIA      |
+|RF-004| Permitir que o administrador do condomínio aprove ou rejeite as reservas feitas pelos moradores | ALTA       |
+|RF-005| Permitir que o administrador do condomínio adicione novos moradores ao sistema | ALTA       |
+|RF-006| Permitir que o administrador do condomínio remova moradores do sistema  | ALTA       |
+|RF-007| Permitir que o administrador do condomínio modifique as permissões de acesso dos moradores | MÉDIA      |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|ID     | Descrição do Requisito                                                  |Prioridade |
+|-------|--------------------------------------------------------------------------|------------|
+|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis          | ALTA       |
+|RNF-002| O sistema deve ser capaz de processar requisições do usuário em no máximo 3 segundos | ALTA       |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                      |
+|--|----------------------------------------------------------------|
+|01| O sistema deve ser desenvolvido utilizando a linguagem Python   |
+|02| O sistema deve ser implantado em um ambiente de nuvem pública   |
+|03| O sistema deve cumprir os regulamentos de proteção de dados GDPR |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
