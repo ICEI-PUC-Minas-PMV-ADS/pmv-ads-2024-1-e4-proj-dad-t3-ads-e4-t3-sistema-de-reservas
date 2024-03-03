@@ -1,46 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este projeto visa solucionar a necessidade de gerenciamento de reservas em espaços comuns como salões de festas e espaços gourmet, em condomínios residenciais de maneira mais moderna e concisa. Através da criação de uma aplicação web e um aplicativo móvel, os moradores terão à disposição uma plataforma simples e prática para marcar eventos e aproveitar essas instalações coletivas.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Em diversos condomínios residenciais, a administração e organização dos espaços de convivência ainda são realizadas de maneira tradicional ou pouco eficaz. Essa situação pode ocasionar problemas de agenda, falta de comunicação entre os moradores e a administração do condomínio, e até mesmo desperdício de locais disponíveis.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Temos como objetivo geral criar um programa de computador que possa resolver o desafio de organizar e gerenciar a utilização de áreas comuns em prédios residenciais.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos:
+
+. Implementar um sistema de reserva online que permita aos moradores visualizar a disponibilidade dos espaços e fazer reservas de forma rápida e conveniente.
+
+. Facilitar a comunicação entre os moradores e a administração do condomínio, fornecendo uma plataforma centralizada para gerenciar e responder às solicitações de reserva.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação de um sistema de reserva para espaços comunitários em condomínios residenciais é essencial por diversos pontos que fundamentam a importância e a necessidade desse projeto:
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Modernização e Eficiência: Atualmente, muitos condomínios ainda dependem de processos manuais para gerenciar espaços comunitários. Um sistema digitalizado de reserva tornará esse processo mais eficiente e moderno.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Facilitação da Comunicação: Uma plataforma online para reservas facilitará a comunicação entre moradores e a administração do condomínio, reduzindo conflitos e mal-entendidos.
+
+Otimização de Recursos: Ao melhorar o acesso e a visibilidade da disponibilidade dos espaços, o sistema ajudará a otimizar o uso desses recursos compartilhados.
+
+Satisfação dos Moradores: Atender às necessidades dos moradores em relação à organização de eventos sociais aumentará a satisfação e a qualidade de vida no condomínio.
+
+Exploração Tecnológica: O projeto oferece a oportunidade de aplicar conceitos avançados de tecnologia, promovendo a inovação e o aprendizado contínuo.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O foco deste projeto são as pessoas que residem em condomínios e utilizam áreas comuns, como salões de festas e espaços gourmet. Diversas categorias de usuários estão incluídas:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Residentes interessados em agendar locais para comemorações sociais, tais como aniversários, churrascos, encontros familiares, entre outros.
+Síndicos e integrantes do corpo administrativo do condomínio possuem a responsabilidade de administrar e autorizar as reservas dos ambientes.
+Os empregados do prédio responsáveis por ajudar na arrumação e preparação dos ambientes para as festividades planejadas.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
