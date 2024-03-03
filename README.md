@@ -9,9 +9,10 @@
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
-* <li><a href="https://github.com/rafaeldrubio"> Rafael Dias Rubio</a></li>
-* <li><a href="https://github.com/JeffJeff25"> Jefferson Lacerda</a></li>
+<ol>
+<li><a href="https://github.com/rafaeldrubio"> Rafael Dias Rubio</a></li>
+<li><a href="https://github.com/JeffJeff25"> Jefferson Lacerda</a></li>
+</ol>
 
 ## Orientador
 
