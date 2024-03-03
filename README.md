@@ -1,6 +1,6 @@
 # SPACE-SHARE Sistema de gerenciamento de reservas
 
-`CURSO: Análise e Densenvolvimento de Sistemas`
+`CURSO: Análise e Desenvolvimento de Sistemas`
 
 `Projeto: Desenvolvimento de uma aplicação distribuida`
 
