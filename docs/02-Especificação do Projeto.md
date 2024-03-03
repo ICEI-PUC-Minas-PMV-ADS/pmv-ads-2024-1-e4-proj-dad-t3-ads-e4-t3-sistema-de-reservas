@@ -195,6 +195,21 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+### Orçamento
 
-![Orçamento](img/02-orcamento.png)
+| Recursos                 | Valor Estimado (em R$) |
+|--------------------------|------------------------|
+| Licenças de Software     | R$ 2.500               |
+| Infraestrutura de Rede   | R$ 5.000               |
+| Serviços de Hospedagem   | R$ 2.500               |
+| Desenvolvedores          | R$ 25.000              |
+| Testes de Qualidade      | R$ 7.500               |
+| Suporte Técnico          | R$ 5.000               |
+| Marketing e Publicidade  | R$ 7.500               |
+| UX/UI                    | R$ 10.000              |
+| Gestão de Pessoal/Tarefas| R$ 5.000               |
+| Contingências            | R$ 5.000               |
+| **Total**                | **R$ 70.000**          |
+
+**Nota:** Os valores apresentados são estimativas e podem variar conforme a inclusão de novas funcionalidades, alterações nos requisitos do projeto ou condições do mercado.
+
