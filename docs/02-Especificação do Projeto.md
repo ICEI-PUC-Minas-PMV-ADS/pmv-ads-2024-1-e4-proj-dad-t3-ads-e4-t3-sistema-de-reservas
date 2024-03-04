@@ -105,12 +105,14 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+| Indicador                           | Objetivos                                      | Descrição                                                    | Fonte dos Dados          | Perspectiva    |
+|-------------------------------------|------------------------------------------------|--------------------------------------------------------------|--------------------------|----------------|
+| Taxa de Ocupação dos Espaços Comuns | Aumentar a utilização dos espaços comuns      | Porcentagem de tempo em que os espaços estão ocupados       | Sistema de Reservas      | Eficiência     |
+| Tempo Médio de Resposta             | Melhorar a eficiência na gestão de reservas   | Tempo médio necessário para responder às solicitações       | Sistema de Reservas      | Eficiência     |
+| Taxa de Reservas Canceladas         | Reduzir o número de reservas canceladas       | Porcentagem de reservas que são canceladas em relação ao total de reservas feitas | Sistema de Reservas      | Eficiência     |
+| Nível de Satisfação dos Moradores   | Aumentar a satisfação dos moradores           | Avaliação dos moradores sobre a facilidade de uso e eficácia do sistema de reservas | Pesquisas de Satisfação | Satisfação     |
+| Taxa de Utilização do Sistema       | Monitorar a adoção do sistema pelos moradores| Porcentagem de moradores que utilizam o sistema de reservas  | Sistema de Reservas      | Adoção         |
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
