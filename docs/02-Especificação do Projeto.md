@@ -1,23 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Nesta seção, serão abordadas as especificações detalhadas do projeto de desenvolvimento do sistema de Gerenciamento de Reservas de espaços de condomínio. A definição do problema e a ideia de solução serão exploradas a partir da perspectiva do usuário, incluindo o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
-
-Definição do Problema:
-Identificação das lacunas no gerenciamento de reservas de espaços comuns em condomínios residenciais.
-Necessidade de uma solução moderna e concisa para facilitar o agendamento e utilização dessas instalações coletivas.
-
-Ideia de Solução:
-Desenvolvimento de uma aplicação web e um aplicativo móvel para oferecer aos moradores uma plataforma intuitiva para o agendamento de eventos e uso dos espaços comuns.
-Foco na simplicidade e praticidade, garantindo uma experiência amigável para todos os usuários.
-
-Técnicas e Ferramentas Utilizadas:
-Diagrama de Personas: Descrição detalhada dos diferentes tipos de usuários do sistema.
-Histórias de Usuários: Narrativas que descrevem as interações dos usuários com o sistema.
-Requisitos Funcionais e Não Funcionais: Lista de funcionalidades e características do sistema.
-Restrições do Projeto: Limitações e condições que influenciam o desenvolvimento do projeto.
-
 ## Personas
 
 > - `Carla Dias`
@@ -85,11 +67,16 @@ Essas histórias de usuários serão fundamentais para orientar o desenvolviment
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Gestão Manual dos Espaços Comuns: Atualmente, a gestão dos espaços comuns do condomínio é feita de forma manual, geralmente por meio de agendas físicas ou planilhas compartilhadas. Isso pode levar a conflitos de agendamento, erros humanos e dificuldade na visualização da disponibilidade dos espaços.
+
+Comunicação Ineficiente: A comunicação entre os moradores e a administração do condomínio em relação às reservas de espaços comuns é muitas vezes ineficiente. Os moradores podem enfrentar dificuldades para solicitar reservas, receber confirmações ou atualizações sobre suas reservas.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Automatização do Processo de Reservas: Implementação de um sistema online que permite aos moradores visualizarem a disponibilidade dos espaços comuns, fazerem reservas de forma autônoma e receberem confirmações automáticas.
+
+Melhoria na Comunicação: Introdução de notificações automáticas para os moradores sobre o status de suas reservas, além de facilitar o contato com a administração do condomínio por meio de uma plataforma centralizada.
+
 
 ### Processo 1 – NOME DO PROCESSO
 
@@ -191,9 +178,7 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
+O gerenciamento da equipe será realizado através da ferramenta de Gestão do  Projetos do Trello, onde após alinhado com os membros, serão registradas as tarefas a serem realizadas ao longo de cada sprint e para qual membro ela foi designada.
 
 ## Gestão de Orçamento
 
