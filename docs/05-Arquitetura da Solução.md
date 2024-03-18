@@ -10,12 +10,17 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+O diagrama de classes a seguir - adaptado para um ambiente de banco de dados NoSQL, onde a estrutura dos dados pode ser mais flexível e não segue necessariamente um esquema rígido como em bancos de dados SQL, apresenta a estrutura das entidades principais do sistema, incluindo Condomínio, Condomino, Reserva e Local.
+
+1. Condomínio: Esta classe representa um condomínio e seus atributos básicos como Id (identificador único) e Nome. Além disso, possui coleções de Condominos, Locais e Reservas. Essas coleções podem ser consideradas como referências a documentos relacionados em um banco de dados NoSQL, onde não há uma estrutura de tabela fixa. Por exemplo, um condomínio pode ter uma lista de IDs de Condominos que pertencem a ele, uma lista de IDs de Locais disponíveis e uma lista de IDs de Reservas feitas neste condomínio.
+
+2. Condomino: Esta classe representa um condômino e seus atributos básicos como Id e Nome. Da mesma forma que Condomínio, possui coleções de Condomínios (indicando os condomínios aos quais o condômino pertence) e Reservas (indicando as reservas feitas pelo condômino). No contexto NoSQL, essas coleções podem ser interpretadas como referências a documentos relacionados.
+
+3. Reserva: Esta classe representa uma reserva de espaço em um condomínio. Ela possui atributos como Id, Data de Início e Data de Fim, e também faz referência ao condomínio onde a reserva foi feita, o condômino que fez a reserva e o local reservado. No banco de dados NoSQL, essas referências podem ser representadas como IDs de documentos relacionados.
+
+4. Local: Esta classe representa um espaço público dentro de um condomínio, como uma área de lazer. Possui atributos como Id e Descrição, que fornecem informações sobre o local. No contexto NoSQL, isso pode ser armazenado como um documento independente ou incorporado em documentos de condomínio, dependendo da necessidade de consulta e da estrutura do banco de dados.
 
 ![Arquitetura da Solução](img/diagrama_classes.png)
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
 
