@@ -13,6 +13,7 @@ O projeto consiste no desenvolvimento de uma plataforma digital para facilitar a
 <ol>
 <li><a href="https://github.com/rafaeldrubio"> Rafael Dias Rubio</a></li>
 <li><a href="https://github.com/JeffJeff25"> Jefferson Lacerda</a></li>
+<li><a href="https://github.com/Giovannadnts"> Giovanna Dantas</a></li>
 </ol>
 
 ## Orientador
