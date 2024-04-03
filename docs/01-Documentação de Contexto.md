@@ -35,5 +35,5 @@ O foco deste projeto são as pessoas que residem em condomínios e utilizam áre
 
 Residentes interessados em agendar locais para comemorações sociais, tais como aniversários, churrascos, encontros familiares, entre outros.
 Síndicos e integrantes do corpo administrativo do condomínio possuem a responsabilidade de administrar e autorizar as reservas dos ambientes.
-Os empregados do prédio responsáveis por ajudar na arrumação e preparação dos ambientes para as festividades planejadas. Melhorias na administração local.
+Os empregados do prédio responsáveis por ajudar na arrumação e preparação dos ambientes para as festividades planejadas.
 
