@@ -9,7 +9,7 @@ namespace api_reservas.Controllers
     [Controller]
     public class BaseController<T> : ControllerBase where T  : class, IBaseEntity, new()
     {
-        private readonly BaseService<T> _baseService;
+        protected readonly BaseService<T> _baseService;
 
         //public BaseController(BaseService<T> baseService) => _baseService = baseService;
 
