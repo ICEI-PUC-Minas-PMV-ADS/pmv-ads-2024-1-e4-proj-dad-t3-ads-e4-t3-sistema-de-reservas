@@ -9,7 +9,7 @@ namespace api_reservas.Controllers
     [Controller]
     public class BaseController<T> : ControllerBase where T  : class, IBaseEntity, new()
     {
-        protected readonly BaseService<T> _baseService;
+        public readonly BaseService<T> _baseService;
 
         //public BaseController(BaseService<T> baseService) => _baseService = baseService;
 
@@ -35,7 +35,7 @@ namespace api_reservas.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(T entity)
+        public virtual async Task<IActionResult> Post(T entity)
         {
             await _baseService.CreateAsync(entity);
 
