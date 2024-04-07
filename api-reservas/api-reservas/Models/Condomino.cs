@@ -8,7 +8,7 @@ namespace api_reservas.Models
     {
         public int usuarioId { get; set; }
         [Required(ErrorMessage = "O Nome é Obrigatório")]
-        [MaxLength(50, ErrorMessage Message = "O tamanho do gênero não pode exceder 50 caracteres")]
+        [MaxLength(50, ErrorMessage Message = "O tamanho não pode exceder 50 caracteres")]
         public string Nome { get; set; }
         public Reserva[]? Reservas { get; set; }
     }
