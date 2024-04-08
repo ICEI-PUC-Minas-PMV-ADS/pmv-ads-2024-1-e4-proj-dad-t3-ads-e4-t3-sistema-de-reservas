@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace api_reservas.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CondominioController : BaseController<Condominio>
     {
         public CondominioController(MyMongoRepository repo) : base(repo)
         {
+            
         }
     }
 }

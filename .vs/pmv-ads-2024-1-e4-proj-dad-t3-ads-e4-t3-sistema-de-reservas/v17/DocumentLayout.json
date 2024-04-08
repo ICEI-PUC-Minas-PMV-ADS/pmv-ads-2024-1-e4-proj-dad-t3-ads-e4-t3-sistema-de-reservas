@@ -1,12 +1,245 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\RafaelRubio\\Documents\\GitHub\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Controllers\\UsuarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Controllers\\UsuarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Authenticate\\IAuthenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Authenticate\\IAuthenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Models\\UsuarioToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Models\\UsuarioToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Dtos\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Dtos\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\UsuarioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Services\\UsuarioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\api-reservas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\api-reservas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\CondominoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Services\\CondominoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\LocalService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Services\\LocalService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\api-reservas.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\api-reservas.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\BaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Services\\BaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\CondominioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-reservas\\api-reservas\\Services\\CondominioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Program.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Program.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Program.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T22:25:37.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthenticate.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Authenticate\\IAuthenticate.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Authenticate\\IAuthenticate.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Authenticate\\IAuthenticate.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Authenticate\\IAuthenticate.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T22:23:39.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioToken.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Models\\UsuarioToken.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Models\\UsuarioToken.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Models\\UsuarioToken.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Models\\UsuarioToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T22:22:00.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Dtos\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T22:21:55.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T22:17:28.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:32:32.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Services\\UsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:32:20.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\appsettings.json",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\appsettings.json",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\appsettings.json",
+              "RelativeToolTip": "api-reservas\\api-reservas\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T15:22:35.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "api-reservas.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\api-reservas.csproj.user",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\api-reservas.csproj.user",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\api-reservas.csproj.user",
+              "RelativeToolTip": "api-reservas\\api-reservas\\api-reservas.csproj.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-04-05T00:09:50.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "api-reservas.csproj",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\api-reservas.csproj",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\api-reservas.csproj",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\api-reservas.csproj",
+              "RelativeToolTip": "api-reservas\\api-reservas\\api-reservas.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T00:09:44.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocalService.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\LocalService.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Services\\LocalService.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\LocalService.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Services\\LocalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:06:47.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CondominoService.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\CondominoService.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Services\\CondominoService.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\CondominoService.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Services\\CondominoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:06:34.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CondominioService.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\CondominioService.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Services\\CondominioService.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\CondominioService.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Services\\CondominioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:06:21.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "api-reservas\\api-reservas\\Services\\BaseService.cs",
+              "ToolTip": "C:\\Users\\Giova\\source\\repos\\pmv-ads-2024-1-e4-proj-dad-t3-ads-e4-t3-sistema-de-reservas\\api-reservas\\api-reservas\\Services\\BaseService.cs",
+              "RelativeToolTip": "api-reservas\\api-reservas\\Services\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:05:58.619Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
