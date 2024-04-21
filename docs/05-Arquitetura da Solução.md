@@ -4,24 +4,35 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![Arquitetura da Solução](img/arquitetura_solucao.png)
 
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+O diagrama de classes a seguir, adaptado para um ambiente de banco de dados NoSQL - onde a estrutura dos dados pode ser mais flexível e não segue necessariamente um esquema rígido como em bancos de dados SQL, apresenta a estrutura das entidades principais do sistema, incluindo Condomínio, Condomino, Reserva e Local.
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+1. Condomínio: Esta classe representa um condomínio e seus atributos básicos como Id (identificador único) e Nome. Além disso, possui coleções de Condominos, Locais e Reservas. Essas coleções podem ser consideradas como referências a documentos relacionados em um banco de dados NoSQL, onde não há uma estrutura de tabela fixa. Por exemplo, um condomínio pode ter uma lista de IDs de Condominos que pertencem a ele, uma lista de IDs de Locais disponíveis e uma lista de IDs de Reservas feitas neste condomínio.
+
+2. Condomino: Esta classe representa um condômino e seus atributos básicos como Id e Nome. Da mesma forma que Condomínio, possui coleções de Condomínios (indicando os condomínios aos quais o condômino pertence) e Reservas (indicando as reservas feitas pelo condômino).
+
+3. Reserva: Esta classe representa uma reserva de espaço em um condomínio. Ela possui atributos como Id, Data de Início e Data de Fim, e também faz referência ao condomínio onde a reserva foi feita, o condômino que fez a reserva e o local reservado. 
+
+4. Local: Esta classe representa um espaço público dentro de um condomínio, como uma área de lazer. Possui atributos como Id e Descrição, que fornecem informações sobre o local.  
+
+![Diagrama de Classes](img/diagrama_classes.png)
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O modelo Entidade-Relacionamento (ER) proposto descreve a estrutura de um banco de dados NoSQL baseado em documentos, composto por quatro entidades principais: Condominio, Condomino, Local e Reserva. A entidade Condominio representa um condomínio ou complexo residencial, identificado por um atributo único, id, e possui um nome. Além disso, um Condominio pode possuir vários Condominos, Locais e Reservas.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+![Modelo ER](img/diagrama_er.png)
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+A entidade Condomino representa um morador ou residente do condomínio, identificado por um atributo único, id, e possuindo um nome. Um Condomino pode estar associado a um ou mais Condominios, indicando os condomínios onde ele reside. Adicionalmente, um Condomino pode realizar várias Reservas de locais dentro do condomínio.
+
+A entidade Local representa um espaço ou instalação dentro do condomínio que pode ser reservado, identificado por um atributo único, id, e possuindo um nome. Um Local pode ser parte de um ou mais Condominios e pode ser reservado em diferentes datas e horários por meio das Reservas. No modelo proposto, Local é uma subcoleção aninhada da coleçao Condominio.
+
+A entidade Reserva representa a reserva de um Local por um Condomino em um determinado momento, identificada por um atributo único, idreserva. Uma Reserva está associada a um Condomino, indicando quem fez a reserva, a um Local, indicando o local reservado, e a uma data e hora específicas. Um Condomino pode ter zero ou mais Reservas de locais dentro do condomínio. No modelo proposto, Reserva é uma subcoleção aninhada das coleções Condominio e Condominos.
 
 ## Esquema Relacional
 

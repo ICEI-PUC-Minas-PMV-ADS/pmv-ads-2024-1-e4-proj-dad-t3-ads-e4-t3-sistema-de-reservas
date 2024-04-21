@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api-reservas",
+    "\\api-reservas\\api-reservas",
+    "\\api-reservas\\api-reservas\\Authenticate",
+    "\\api-reservas\\api-reservas\\Controllers",
+    "\\api-reservas\\api-reservas\\Dtos",
+    "\\api-reservas\\api-reservas\\Properties",
+    "\\api-reservas\\api-reservas\\Repositories",
+    "\\api-reservas\\api-reservas\\Services"
+  ],
+  "SelectedNode": "\\api-reservas\\api-reservas\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

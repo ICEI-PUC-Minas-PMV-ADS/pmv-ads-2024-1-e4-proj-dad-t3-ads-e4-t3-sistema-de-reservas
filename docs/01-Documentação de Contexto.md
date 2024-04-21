@@ -1,6 +1,6 @@
 # Introdução
 
-Este projeto visa solucionar a necessidade de gerenciamento de reservas em espaços comuns como salões de festas e espaços gourmet, em condomínios residenciais de maneira mais moderna e concisa. Através da criação de uma aplicação web e um aplicativo móvel, os moradores terão à disposição uma plataforma simples e prática para marcar eventos e aproveitar essas instalações coletivas.
+Este projeto visa solucionar a necessidade de gerenciamento de reservas em espaços comuns como salões de festas e espaços gourmet, em condomínios residenciais de maneira mais moderna e concisa. Através da criação de uma aplicação web e um aplicativo móvel, os moradores terão à sua disposição uma plataforma simples e prática para marcar eventos e aproveitar essas instalações coletivas.
 
 ## Problema
 Em diversos condomínios residenciais, a administração e organização dos espaços de convivência ainda são realizadas de maneira tradicional ou pouco eficaz. Essa situação pode ocasionar problemas de agenda, falta de comunicação entre os moradores e a administração do condomínio, e até mesmo desperdício de locais disponíveis.
