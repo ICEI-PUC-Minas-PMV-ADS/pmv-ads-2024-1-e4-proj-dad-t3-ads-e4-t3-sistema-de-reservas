@@ -20,14 +20,14 @@ const Navbar = ({ user }) => {
         {user ? (
           user.userType === 'Condominos' ? (
             <>
-              <a href="#" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Reservas</a>
-              <a href="#" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Condomínios</a>
+              <a href="/privado/reservas" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Reservas</a>
+              <a href="/privado/condominios" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Condomínios</a>
             </>
           ) : (
             <>
-              <a href="#" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Reservas</a>
-              <a href="#" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Locais</a>
-              <a href="#" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Condôminos</a>
+              <a href="/privado/reservas" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Reservas</a>
+              <a href="/privado/locais" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Locais</a>
+              <a href="/privado/condominos" className="block md:inline-block text-white font-bold hover:text-blue-500 px-3 py-3 border-b-2 hover:shadow-md hover:bg-cyan-500 border-cyan-600 md:border-none">Condôminos</a>
             </>
             
           )
