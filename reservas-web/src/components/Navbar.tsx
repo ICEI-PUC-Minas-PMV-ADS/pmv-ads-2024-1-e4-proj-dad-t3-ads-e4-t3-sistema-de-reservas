@@ -1,4 +1,5 @@
-import { useState } from 'react';
+'use client'
+import {useState} from 'react';
 
 const Navbar = ({ user }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = ({ user }) => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-3 bg-cyan-400">
+    <div className="flex flex-wrap items-center justify-between p-3 bg-cyan-400">
       <h2 className="text-xl font-bold ml-4">RESERVAS</h2>
       <div className="flex md:hidden">
         <button onClick={toggleMenu}>
@@ -42,8 +43,9 @@ const Navbar = ({ user }) => {
         <a href="#" className="hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded">Entrar</a>
       )}
       
-    </nav>
+    </div>
   );
 };
 
 export default Navbar;
+
